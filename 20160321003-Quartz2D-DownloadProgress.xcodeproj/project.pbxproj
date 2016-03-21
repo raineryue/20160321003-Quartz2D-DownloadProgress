@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5EE878D1CA03FAE00849F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE878C1CA03FAE00849F8D /* main.m */; };
+		D5EE87901CA03FAE00849F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE878F1CA03FAE00849F8D /* AppDelegate.m */; };
+		D5EE87931CA03FAE00849F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87921CA03FAE00849F8D /* ViewController.m */; };
+		D5EE87961CA03FAE00849F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE87941CA03FAE00849F8D /* Main.storyboard */; };
+		D5EE87981CA03FAE00849F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE87971CA03FAE00849F8D /* Assets.xcassets */; };
+		D5EE879B1CA03FAE00849F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE87991CA03FAE00849F8D /* LaunchScreen.storyboard */; };
+		D5EE87A61CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87A51CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m */; };
+		D5EE87B11CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87B01CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5EE87A21CA03FAE00849F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5EE87801CA03FAE00849F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5EE87871CA03FAE00849F8D;
+			remoteInfo = "20160321003-Quartz2D-DownloadProgress";
+		};
+		D5EE87AD1CA03FAE00849F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5EE87801CA03FAE00849F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5EE87871CA03FAE00849F8D;
+			remoteInfo = "20160321003-Quartz2D-DownloadProgress";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5EE87881CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160321003-Quartz2D-DownloadProgress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EE878C1CA03FAE00849F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EE878E1CA03FAE00849F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5EE878F1CA03FAE00849F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5EE87911CA03FAE00849F8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5EE87921CA03FAE00849F8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5EE87951CA03FAE00849F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5EE87971CA03FAE00849F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5EE879A1CA03FAE00849F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5EE879C1CA03FAE00849F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EE87A11CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160321003-Quartz2D-DownloadProgressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EE87A51CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160321003_Quartz2D_DownloadProgressTests.m; sourceTree = "<group>"; };
+		D5EE87A71CA03FAE00849F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EE87AC1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160321003-Quartz2D-DownloadProgressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EE87B01CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160321003_Quartz2D_DownloadProgressUITests.m; sourceTree = "<group>"; };
+		D5EE87B21CA03FAE00849F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EE87851CA03FAE00849F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE879E1CA03FAE00849F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE87A91CA03FAE00849F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5EE877F1CA03FAE00849F8D = {
+			isa = PBXGroup;
+			children = (
+				D5EE878A1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */,
+				D5EE87A41CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests */,
+				D5EE87AF1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests */,
+				D5EE87891CA03FAE00849F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EE87891CA03FAE00849F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE87881CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress.app */,
+				D5EE87A11CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests.xctest */,
+				D5EE87AC1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EE878A1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE878E1CA03FAE00849F8D /* AppDelegate.h */,
+				D5EE878F1CA03FAE00849F8D /* AppDelegate.m */,
+				D5EE87911CA03FAE00849F8D /* ViewController.h */,
+				D5EE87921CA03FAE00849F8D /* ViewController.m */,
+				D5EE87941CA03FAE00849F8D /* Main.storyboard */,
+				D5EE87971CA03FAE00849F8D /* Assets.xcassets */,
+				D5EE87991CA03FAE00849F8D /* LaunchScreen.storyboard */,
+				D5EE879C1CA03FAE00849F8D /* Info.plist */,
+				D5EE878B1CA03FAE00849F8D /* Supporting Files */,
+			);
+			path = "20160321003-Quartz2D-DownloadProgress";
+			sourceTree = "<group>";
+		};
+		D5EE878B1CA03FAE00849F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE878C1CA03FAE00849F8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5EE87A41CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE87A51CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m */,
+				D5EE87A71CA03FAE00849F8D /* Info.plist */,
+			);
+			path = "20160321003-Quartz2D-DownloadProgressTests";
+			sourceTree = "<group>";
+		};
+		D5EE87AF1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EE87B01CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m */,
+				D5EE87B21CA03FAE00849F8D /* Info.plist */,
+			);
+			path = "20160321003-Quartz2D-DownloadProgressUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EE87871CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EE87B51CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgress" */;
+			buildPhases = (
+				D5EE87841CA03FAE00849F8D /* Sources */,
+				D5EE87851CA03FAE00849F8D /* Frameworks */,
+				D5EE87861CA03FAE00849F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160321003-Quartz2D-DownloadProgress";
+			productName = "20160321003-Quartz2D-DownloadProgress";
+			productReference = D5EE87881CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5EE87A01CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EE87B81CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgressTests" */;
+			buildPhases = (
+				D5EE879D1CA03FAE00849F8D /* Sources */,
+				D5EE879E1CA03FAE00849F8D /* Frameworks */,
+				D5EE879F1CA03FAE00849F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EE87A31CA03FAE00849F8D /* PBXTargetDependency */,
+			);
+			name = "20160321003-Quartz2D-DownloadProgressTests";
+			productName = "20160321003-Quartz2D-DownloadProgressTests";
+			productReference = D5EE87A11CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5EE87AB1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EE87BB1CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgressUITests" */;
+			buildPhases = (
+				D5EE87A81CA03FAE00849F8D /* Sources */,
+				D5EE87A91CA03FAE00849F8D /* Frameworks */,
+				D5EE87AA1CA03FAE00849F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EE87AE1CA03FAE00849F8D /* PBXTargetDependency */,
+			);
+			name = "20160321003-Quartz2D-DownloadProgressUITests";
+			productName = "20160321003-Quartz2D-DownloadProgressUITests";
+			productReference = D5EE87AC1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EE87801CA03FAE00849F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5EE87871CA03FAE00849F8D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D5EE87A01CA03FAE00849F8D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D5EE87871CA03FAE00849F8D;
+					};
+					D5EE87AB1CA03FAE00849F8D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D5EE87871CA03FAE00849F8D;
+					};
+				};
+			};
+			buildConfigurationList = D5EE87831CA03FAE00849F8D /* Build configuration list for PBXProject "20160321003-Quartz2D-DownloadProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5EE877F1CA03FAE00849F8D;
+			productRefGroup = D5EE87891CA03FAE00849F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EE87871CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */,
+				D5EE87A01CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressTests */,
+				D5EE87AB1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EE87861CA03FAE00849F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EE879B1CA03FAE00849F8D /* LaunchScreen.storyboard in Resources */,
+				D5EE87981CA03FAE00849F8D /* Assets.xcassets in Resources */,
+				D5EE87961CA03FAE00849F8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE879F1CA03FAE00849F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE87AA1CA03FAE00849F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EE87841CA03FAE00849F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EE87931CA03FAE00849F8D /* ViewController.m in Sources */,
+				D5EE87901CA03FAE00849F8D /* AppDelegate.m in Sources */,
+				D5EE878D1CA03FAE00849F8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE879D1CA03FAE00849F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EE87A61CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE87A81CA03FAE00849F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EE87B11CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5EE87A31CA03FAE00849F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5EE87871CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */;
+			targetProxy = D5EE87A21CA03FAE00849F8D /* PBXContainerItemProxy */;
+		};
+		D5EE87AE1CA03FAE00849F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5EE87871CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgress */;
+			targetProxy = D5EE87AD1CA03FAE00849F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5EE87941CA03FAE00849F8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EE87951CA03FAE00849F8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5EE87991CA03FAE00849F8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EE879A1CA03FAE00849F8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EE87B31CA03FAE00849F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5EE87B41CA03FAE00849F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EE87B61CA03FAE00849F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5EE87B71CA03FAE00849F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5EE87B91CA03FAE00849F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160321003-Quartz2D-DownloadProgress.app/20160321003-Quartz2D-DownloadProgress";
+			};
+			name = Debug;
+		};
+		D5EE87BA1CA03FAE00849F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160321003-Quartz2D-DownloadProgress.app/20160321003-Quartz2D-DownloadProgress";
+			};
+			name = Release;
+		};
+		D5EE87BC1CA03FAE00849F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgressUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160321003-Quartz2D-DownloadProgress";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5EE87BD1CA03FAE00849F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160321003-Quartz2D-DownloadProgressUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160321003-Quartz2D-DownloadProgressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160321003-Quartz2D-DownloadProgress";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EE87831CA03FAE00849F8D /* Build configuration list for PBXProject "20160321003-Quartz2D-DownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EE87B31CA03FAE00849F8D /* Debug */,
+				D5EE87B41CA03FAE00849F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EE87B51CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EE87B61CA03FAE00849F8D /* Debug */,
+				D5EE87B71CA03FAE00849F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5EE87B81CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EE87B91CA03FAE00849F8D /* Debug */,
+				D5EE87BA1CA03FAE00849F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5EE87BB1CA03FAE00849F8D /* Build configuration list for PBXNativeTarget "20160321003-Quartz2D-DownloadProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EE87BC1CA03FAE00849F8D /* Debug */,
+				D5EE87BD1CA03FAE00849F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5EE87801CA03FAE00849F8D /* Project object */;
+}
