@@ -15,6 +15,7 @@
 		D5EE879B1CA03FAE00849F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE87991CA03FAE00849F8D /* LaunchScreen.storyboard */; };
 		D5EE87A61CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87A51CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressTests.m */; };
 		D5EE87B11CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87B01CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m */; };
+		D5EE87C01CA0408B00849F8D /* DownloadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EE87BF1CA0408B00849F8D /* DownloadProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D5EE87AC1CA03FAE00849F8D /* 20160321003-Quartz2D-DownloadProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160321003-Quartz2D-DownloadProgressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EE87B01CA03FAE00849F8D /* _0160321003_Quartz2D_DownloadProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160321003_Quartz2D_DownloadProgressUITests.m; sourceTree = "<group>"; };
 		D5EE87B21CA03FAE00849F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EE87BE1CA0408B00849F8D /* DownloadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadProgress.h; sourceTree = "<group>"; };
+		D5EE87BF1CA0408B00849F8D /* DownloadProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				D5EE87911CA03FAE00849F8D /* ViewController.h */,
 				D5EE87921CA03FAE00849F8D /* ViewController.m */,
 				D5EE87941CA03FAE00849F8D /* Main.storyboard */,
+				D5EE87BE1CA0408B00849F8D /* DownloadProgress.h */,
+				D5EE87BF1CA0408B00849F8D /* DownloadProgress.m */,
 				D5EE87971CA03FAE00849F8D /* Assets.xcassets */,
 				D5EE87991CA03FAE00849F8D /* LaunchScreen.storyboard */,
 				D5EE879C1CA03FAE00849F8D /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				D5EE87931CA03FAE00849F8D /* ViewController.m in Sources */,
 				D5EE87901CA03FAE00849F8D /* AppDelegate.m in Sources */,
+				D5EE87C01CA0408B00849F8D /* DownloadProgress.m in Sources */,
 				D5EE878D1CA03FAE00849F8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
